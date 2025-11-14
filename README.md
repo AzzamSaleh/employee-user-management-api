@@ -1,4 +1,4 @@
-# **Employee User Management API -- Spring Boot REST Application**
+# **Employee User Management API - Spring Boot REST Application**
 
 A **secure, modern** Spring Boot REST API for managing **employees,
 users, and role-based authorization**, with MySQL integration and a
