@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>User Management</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<nav>
+    <span class="brand">👤 User Management</span>
+    <span>
+    <a href="employees.html">Employees</a>
+    <a href="#" onclick="logout()">Logout</a>
+  </span>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h3>Create New User</h3>
+        <div class="btn-row">
+            <input id="uName" placeholder="Username" />
+            <input id="uPass" type="password" placeholder="Password" />
+            <select id="uRole">
+                <option value="EMPLOYEE">EMPLOYEE</option>
+                <option value="MANAGER">MANAGER</option>
+                <option value="ADMIN">ADMIN</option>
+            </select>
+            <button onclick="addUser()">Add User</button>
+        </div>
+        <p id="umsg" class="helper"></p>
+    </div>
+
+    <div class="card">
+        <h3>Existing Users</h3>
+        <div class="table-wrap">
+            <table id="userTable">
+                <thead><tr><th>Username</th><th>Enabled</th><th>Roles*</th></tr></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <p class="helper">* Roles column shows data if your backend returns roles; otherwise it is blank.</p>
+    </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/users.js"></script>
+</body>
+</html>

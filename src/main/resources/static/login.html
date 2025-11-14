@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="center">
+<div class="card" style="width:min(420px, 92vw)">
+    <h2>🔐 Login</h2>
+    <div class="btn-row" style="flex-direction:column">
+        <input id="username" placeholder="Username" />
+        <input id="password" type="password" placeholder="Password" />
+        <button onclick="login()">Login</button>
+        <p id="error" class="error"></p>
+        <p class="helper">Use your database credentials (BCrypt) — roles will be auto-detected.</p>
+    </div>
+</div>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
