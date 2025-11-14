@@ -1,35 +1,23 @@
-Employee User Management API
+***Employee User Management API – Spring Boot REST Application***
+A ***secure, modern*** Spring Boot REST API for managing ***employees***, ***users***, and ***role-based authorization***, with ***MySQL*** integration and a lightweight ***front-end*** for testing.
+--
 
-A full Spring Boot 3 application providing secure Employee and User management with complete CRUD operations, role-based authorization, database authentication, validation, error handling, and a simple front-end UI.
+***Features***
+- ***Employee Management (CRUD)***
+- ***User Management (Admin Only)***
+- ***Role-Based Access Control*** (***EMPLOYEE / MANAGER / ADMIN***)
+- ***Secure Authentication*** (***JDBC + BCrypt***)
+- ***Input Validation & Error Handling***
+- ***Global Exception Handling***
+- ***MySQL Database Integration***
+- ***Simple Front-End*** (***HTML/CSS/JS***)
 
-This project demonstrates real production concepts in Spring Boot, Spring Security, JPA, and MySQL.
+--
+***Technologies Used***
+- ***Spring Boot 3*** (Backend Framework)
+- ***Spring Security*** (Authentication & Authorization)
+- ***Spring Data JPA*** (ORM)
+- ***MySQL*** (Database)
+- ***Java 21***
+- ***Maven*** (Build Tool)
 
-🚀 Features
-
-JDBC Authentication (Spring Security)
-
-BCrypt Password Encryption
-
-Role-Based Authorization (EMPLOYEE / MANAGER / ADMIN)
-
-User Management (Admin Only)
-
-Employee CRUD Operations
-
-Input Validation
-
-Global Exception Handling
-
-MySQL Database Integration
-
-Simple Front-End (HTML/CSS/JS)
-
-🛢 Tech Stack
-
-Java 21 • Spring Boot 3
-
-Spring Security • Spring Data JPA
-
-MySQL • Maven
-
-HTML • CSS • JavaScript
